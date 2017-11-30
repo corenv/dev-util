@@ -23,6 +23,7 @@
 
     <properties>
         <jdk.version>1.7</jdk.version>
+        <file.encoding>UTF-8</file.encoding>
 
         <spring.version>3.2.6.RELEASE</spring.version>
         <mysql.version>5.1.40</mysql.version>
@@ -83,6 +84,7 @@
                 <configuration>
                     <source>${jdk.version}</source>
                     <target>${jdk.version}</target>
+                    <encoding>${file.encoding}</encoding>
                 </configuration>
             </plugin>
         </plugins>
