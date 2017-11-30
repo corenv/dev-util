@@ -16,7 +16,7 @@
         <sqlMapGenerator targetPackage="${targetXMLPackage}"  targetProject="${targetResourcesProject}"/>
         <javaClientGenerator targetPackage="${targetMapperPackage}" targetProject="${targetJavaProject}" type="XMLMAPPER" />
 
-        <table tableName="user"
+        <table tableName="org"
                enableCountByExample="false"
                enableUpdateByExample="false"
                enableDeleteByExample="false"

@@ -24,7 +24,7 @@
         <javaClientGenerator targetPackage="${targetMapperPackage}" targetProject="${targetJavaProject}" type="XMLMAPPER" />
 
 
-        <table tableName="user" >
+        <table tableName="role" >
             <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
         </table>
 
