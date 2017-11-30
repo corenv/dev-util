@@ -1,5 +1,5 @@
 dev-util
 ======
-协助提升开发效率。
+协同研发工具。
 ======
 命令 mybatis-generator:generate -e
