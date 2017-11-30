@@ -23,9 +23,6 @@
     </repositories>
 
     <properties>
-        <jdk.version>1.7</jdk.version>
-        <file.encoding>UTF-8</file.encoding>
-
         <spring.version>3.2.6.RELEASE</spring.version>
         <mysql.version>5.1.40</mysql.version>
         <mybatis.version>3.4.1</mybatis.version>
@@ -38,6 +35,8 @@
         <targetResourcesProject>${basedir}/src/main/resources</targetResourcesProject>
         <targetXMLPackage>mappers</targetXMLPackage>
 
+        <jdk.version>1.7</jdk.version>
+        <file.encoding>UTF-8</file.encoding>
         <dev.version>V2.0</dev.version>
     </properties>
 
