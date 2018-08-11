@@ -1,8 +1,8 @@
-package com.netyou.dev.domain;
+package com.itechBlog.domain;
 
 import java.util.Date;
 
-public class Org {
+public class OrgDO {
     private Long id;
 
     private Long version;

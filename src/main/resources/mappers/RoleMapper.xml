@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.netyou.dev.dao.RoleMapper">
-  <resultMap id="BaseResultMap" type="com.netyou.dev.domain.Role">
+<mapper namespace="com.itechBlog.dao.RoleMapper">
+
+  <resultMap id="BaseResultMap" type="com.itechBlog.domain.RoleDO">
     <!--
       WARNING - @mbggenerated
     -->
@@ -16,4 +17,5 @@
     <result column="gmt_modify" jdbcType="TIMESTAMP" property="gmtModify" />
     <result column="remarks" jdbcType="LONGVARCHAR" property="remarks" />
   </resultMap>
+
 </mapper>

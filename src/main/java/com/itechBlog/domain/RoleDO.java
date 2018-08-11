@@ -1,9 +1,9 @@
-package com.netyou.dev.domain;
+package com.itechBlog.domain;
 
 import java.util.Date;
 import javax.persistence.*;
 
-public class Role {
+public class RoleDO {
     /**
      * 主键
      */

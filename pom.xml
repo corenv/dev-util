@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.netyou.dev</groupId>
+    <groupId>com.itechBlog.dev</groupId>
     <artifactId>dev-util</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
@@ -30,8 +30,8 @@
 
         <!--  MyBatis Generator  -->
         <targetJavaProject>${basedir}/src/main/java</targetJavaProject>
-        <targetMapperPackage>com.netyou.dev.dao</targetMapperPackage>
-        <targetModelPackage>com.netyou.dev.domain</targetModelPackage>
+        <targetMapperPackage>com.itechBlog.dao</targetMapperPackage>
+        <targetModelPackage>com.itechBlog.domain</targetModelPackage>
         <targetResourcesProject>${basedir}/src/main/resources</targetResourcesProject>
         <targetXMLPackage>mappers</targetXMLPackage>
 
